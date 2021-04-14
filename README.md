@@ -37,7 +37,7 @@ The newest version of the data has been re-processed with the following addition
 1. Exact cleavage positions have been mapped for the Alien1 Random MPRA Sublibrary.
 2. A 20 nt random barcode upstream of the USE in the Alien1 Sublibrary has been included in the sequence.
 
-*Note*: The code for the updated data processing is located at the original [APARENT GitHub], but was never published.
+*Note*: The code for the updated data processing is located at the original APARENT GitHub, but was never published.
 
 ## Variant Prediction
 The following notebook scripts contain benchmark comparison results for the task of classifying disruptive APA variants.
