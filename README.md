@@ -3,7 +3,7 @@
 # APARENT2
 This repository contains the code for training and running APARENT2, a deep residual neural network that can predict human 3' UTR Alternative Polyadenylation (APA) and cleavage magnitude at base-pair resolution. This is an updated model compared to the original [APARENT](https://github.com/johli/aparent).
 
-Contact *jlinder2 (at) cs.washington.edu* for any questions about the model or data.
+Contact *jlinder2 (at) stanford.edu* for any questions about the model or data.
 
 ### Web Prediction Tool
 We have hosted a publicly accessible web application where users can predict APA isoform abundance and variant effects with APARENT2 and visualize the results.
