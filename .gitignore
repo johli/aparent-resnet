@@ -26,6 +26,12 @@ __pycache__/
 
 !aparent_resnet_logo.png
 
+!saved_models/aparent_all_libs_resnet_ep_5.h5
+!saved_models/aparent_all_libs_resnet_no_clinvar_wt_ep_5.h5
+!saved_models/aparent_all_libs_resnet_no_clinvar_wt_ep_5_var_batch_size_inference_mode.h5
+!saved_models/aparent_all_libs_resnet_no_clinvar_wt_ep_5_var_batch_size_inference_mode_no_drop.h5
+!saved_models/aparent_all_libs_convnet_no_clinvar_wt_ep_19.h5
+
 *.zip
 *.tar.gz
 
