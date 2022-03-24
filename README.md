@@ -1,7 +1,7 @@
 ![APARENT-ResNet Logo](https://github.com/johli/aparent-resnet/blob/master/aparent_resnet_logo.png?raw=true)
 
 # APARENT-ResNet
-This repository contains the code for training and running APARENT-ResNet, a deep residual neural network that can predict human 3' UTR Alternative Polyadenylation (APA) and cleavage magnitude at base-pair resolution. This is an improved model compared to the original [APARENT](https://github.com/johli/aparent).
+This repository contains the code for training and running APARENT-ResNet, a deep residual neural network that can predict human 3' UTR Alternative Polyadenylation (APA) and cleavage magnitude at base-pair resolution. This is an updated model compared to the original [APARENT](https://github.com/johli/aparent).
 
 Contact *jlinder2 (at) cs.washington.edu* for any questions about the model or data.
 
@@ -39,7 +39,7 @@ The newest version of the data has been re-processed with the following addition
 
 *Note*: The code for the updated data processing is located at the original APARENT GitHub, but was never published.
 
-## Variant Prediction
-The following notebook scripts contain benchmark comparison results for the task of classifying disruptive APA variants.
+## Notebooks
+The following notebook scripts contain benchmark comparison results for various prediction tasks and the results for all analyses reported in the paper.
 
-[Notebook: Variant Prediction Benchmark](https://nbviewer.jupyter.org/github/johli/aparent-resnet/blob/master/analysis/apa_variant_prediction_benchmark.ipynb)<br/>
+[Notebook 1: (Bogard et al) MPRA Variant Prediction Benchmark](https://nbviewer.jupyter.org/github/johli/aparent-resnet/blob/master/analysis/seelig_variants/apa_variant_prediction_benchmark.ipynb)<br/>
