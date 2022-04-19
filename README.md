@@ -1,17 +1,17 @@
-![APARENT-ResNet Logo](https://github.com/johli/aparent-resnet/blob/master/aparent_resnet_logo.png?raw=true)
+![APARENT2 Logo](https://github.com/johli/aparent-resnet/blob/master/aparent_resnet_logo.png?raw=true)
 
-# APARENT-ResNet
-This repository contains the code for training and running APARENT-ResNet, a deep residual neural network that can predict human 3' UTR Alternative Polyadenylation (APA) and cleavage magnitude at base-pair resolution. This is an improved model compared to the original [APARENT](https://github.com/johli/aparent).
+# APARENT2
+This repository contains the code for training and running APARENT2, a deep residual neural network that can predict human 3' UTR Alternative Polyadenylation (APA) and cleavage magnitude at base-pair resolution. This is an updated model compared to the original [APARENT](https://github.com/johli/aparent).
 
-Contact *jlinder2 (at) cs.washington.edu* for any questions about the model or data.
+Contact *jlinder2 (at) stanford.edu* for any questions about the model or data.
 
 ### Web Prediction Tool
-We have hosted a publicly accessible web application where users can predict APA isoform abundance and variant effects with APARENT-ResNet and visualize the results.
+We have hosted a publicly accessible web application where users can predict APA isoform abundance and variant effects with APARENT2 and visualize the results.
 
 The web prediction tool is located at [https://apa.cs.washington.edu](https://apa.cs.washington.edu).
 
 ### Installation
-APARENT-ResNet can be installed by cloning or forking the [github repository](https://github.com/johli/aparent-resnet.git):
+APARENT2 can be installed by cloning or forking the [github repository](https://github.com/johli/aparent-resnet.git):
 ```sh
 git clone https://github.com/johli/aparent-resnet.git
 cd aparent-resnet
@@ -39,7 +39,7 @@ The newest version of the data has been re-processed with the following addition
 
 *Note*: The code for the updated data processing is located at the original APARENT GitHub, but was never published.
 
-## Variant Prediction
-The following notebook scripts contain benchmark comparison results for the task of classifying disruptive APA variants.
+## Notebooks
+The following notebook scripts contain benchmark comparison results for various prediction tasks and the results for all analyses reported in the paper.
 
-[Notebook: Variant Prediction Benchmark](https://nbviewer.jupyter.org/github/johli/aparent-resnet/blob/master/analysis/apa_variant_prediction_benchmark.ipynb)<br/>
+[Notebook 1: (Bogard et al) MPRA Variant Prediction Benchmark](https://nbviewer.jupyter.org/github/johli/aparent-resnet/blob/master/analysis/seelig_variants/apa_variant_prediction_benchmark.ipynb)<br/>
