@@ -40,6 +40,6 @@ The newest version of the data has been re-processed with the following addition
 *Note*: The code for the updated data processing is located at the original APARENT GitHub, but was never published.
 
 ## Notebooks
-The following notebook scripts contain benchmark comparison results for various prediction tasks and the results for all analyses reported in the paper.
+The following notebook scripts contain benchmark comparison results for various prediction tasks as well as other analyses performed in the paper.
 
 [Notebook 1: (Bogard et al) MPRA Variant Prediction Benchmark](https://nbviewer.jupyter.org/github/johli/aparent-resnet/blob/master/analysis/seelig_variants/apa_variant_prediction_benchmark.ipynb)<br/>
