@@ -1,3 +1,5 @@
+[![DOI](https://www.zenodo.org/badge/357736760.svg)](https://www.zenodo.org/badge/latestdoi/357736760)
+
 ![APARENT2 Logo](https://github.com/johli/aparent-resnet/blob/master/aparent_resnet_logo.png?raw=true)
 
 # APARENT2
