@@ -30,6 +30,14 @@ python setup.py install
 - [Optional] Pandas >= 0.24.2
 - [Optional] Matplotlib >= 3.1.1
 
+### Example: Scoring Variants with APARENT2
+The following notebook demonstrates how to use the APARENT2 model to score polyadenylation signal variants: [aparent2_score_variants.ipynb](https://github.com/johli/aparent-resnet/blob/master/examples/aparent2_score_variants.ipynb).
+
+### Genome-wide In-silico Saturation Mutagenesis (Human)
+The following google drive folder contains in-silico saturation mutagenesis predictions for all polyadenylation signals found in PolyADB V3 (transcript-wide). The file 'aparent2_ism_scores_polyadb_v3.csv.gz' contains all data. The file 'aparent2_ism_scores_polyadb_v3_cutoff.csv.gz' contains only variants with more than 1.25-fold increase or decrease in isoform odds.
+
+[APARENT2 ISM Scores](https://drive.google.com/open?id=1rg7VHKBM19iFIruzDgQ4BtUVqgcjypxu)<br/>
+
 ## Data Availability
 The 3' UTR MPRA (the training data and the measured variant data) are available at the original [APARENT GitHub](https://github.com/johli/aparent). For reference, the below link will take you to the data repository.
 
