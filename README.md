@@ -34,7 +34,7 @@ python setup.py install
 The following notebook demonstrates how to use the APARENT2 model to score polyadenylation signal variants: [aparent2_score_variants.ipynb](https://github.com/johli/aparent-resnet/blob/master/examples/aparent2_score_variants.ipynb).
 
 ### Genome-wide In-silico Saturation Mutagenesis (Human)
-The following google drive folder contains in-silico saturation mutagenesis predictions for all polyadenylation signals found in PolyADB V3 (transcript-wide). The file 'aparent2_ism_scores_polyadb_v3.csv.gz' contains all data. The file 'aparent2_ism_scores_polyadb_v3_cutoff.csv.gz' contains only variants with more than 1.25-fold increase or decrease in isoform odds.
+The following google drive folder contains in-silico saturation mutagenesis predictions for all polyadenylation signals found in PolyADB V3 (transcript-wide). The file 'aparent2_ism_scores_polyadb_v3.csv.gz' contains all data. The file 'aparent2_ism_scores_polyadb_v3_cutoff.csv.gz' contains only variants with more than 1.25-fold increase or decrease in isoform odds. The data columns 'delta_logodds' and 'delta_usage' contain variant isoform log odds ratios and isoform proportion differences (wrt. PolyADB measurements) for polyadenylation occurring anywhere +/- 100bp of the canonical cleavage site. The columns 'delta_logodds_narrow' and 'delta_usage_narrow' contains log odds ratios and proportion differences for cleaveage that occurs +0bp to +50bp immediately downstream of the canonical core hexamer motif. The data columns 'pas_position_hg19' and 'pas_position_hg38' indicate the start coordinate of the core hexamer.
 
 [APARENT2 ISM Scores](https://drive.google.com/open?id=1rg7VHKBM19iFIruzDgQ4BtUVqgcjypxu)<br/>
 
