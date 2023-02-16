@@ -24,6 +24,7 @@ python setup.py install
 - Python >= 3.6
 - Tensorflow == 1.13.1
 - Keras == 2.2.4
+- h5py == 2.10.0
 - Scipy >= 1.2.1
 - Numpy >= 1.16.2
 - Isolearn >= 0.2.0 ([github](https://github.com/johli/isolearn.git))
