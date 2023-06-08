@@ -42,7 +42,7 @@ The following google drive folder contains in-silico saturation mutagenesis pred
 ## Data Availability
 The 3' UTR MPRA (the training data and the measured variant data) are available at the original [APARENT GitHub](https://github.com/johli/aparent). For reference, the below link will take you to the data repository.
 
-[Processed Data Repository](https://drive.google.com/open?id=1qex3oY-rarsd7YowM7TxxUklLbLkUyOT)<br/>
+[Processed Data Repository](https://drive.google.com/drive/folders/10FS2AQh3RzLccdH9uWX1CwuDHrRRLqli?usp=sharing)<br/>
 
 The newest version of the data has been re-processed with the following additional improvements compared to the original published version:
 1. Exact cleavage positions have been mapped for the Alien1 Random MPRA Sublibrary.
